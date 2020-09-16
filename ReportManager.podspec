@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ReportManager"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ReportManager."
+  spec.summary      = "nb report class"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-A short description of ReportManager.
+nb report class sdk.
                    DESC
 
   spec.homepage     = "https://github.com/chenxiandong/ReportManager"
@@ -80,7 +80,7 @@ A short description of ReportManager.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ReportManager.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/chenxiandong/ReportManager" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
