@@ -1,0 +1,6 @@
+framework module ReportManager {
+  umbrella header "ReportManager.h"
+
+  export *
+  module * { export * }
+}

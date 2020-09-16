@@ -91,7 +91,7 @@ nb report class sdk.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ReportManager", "ReportManager/**/*.{h,m,strings}", "ReportManager/*.{h,m}"
+  spec.source_files  = "ReportManager.framework", "ReportManager.framework/**/*.{*}", "ReportManager.framework/*.{*}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
